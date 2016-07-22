@@ -25,3 +25,31 @@ ulimit -Hn 8192
 ````
 
 > sudo service supervisor restart
+
+## fail2ban
+> sudo nano /etc/fail2ban/filter.d/shadowsocks.conf
+
+````
+[INCLUDES]
+before = common.conf
+
+[Definition]
+_daemon = shadowsocks
+failregex = ^\s+ERROR\s+can not parse header when handling connection from <HOST>:\d+$
+ignoreregex =
+````
+
+
+> sudo nano /etc/fail2ban/jail.local
+
+```
+[shadowsocks]
+enabled = true
+filter = shadowsocks
+port = 5000:10000
+logpath = /var/log/shadowsocks.log
+maxretry = 5
+bantime = 43200
+```
+> sudo services fail2ban restart
+> sudo fail2ban-client status shadowsocks
