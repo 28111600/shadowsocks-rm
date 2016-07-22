@@ -17,7 +17,7 @@ MANAGE_PORT = 23333
 #if you want bind all of ipv4 if '0.0.0.0'
 #if you want bind all of if only '4.4.4.4'
 SS_BIND_IP = '0.0.0.0'
-SS_METHOD = 'rc4-md5'
+SS_METHOD = 'aes-256-cfb'
 
 #LOG CONFIG
 LOG_ENABLE = False
