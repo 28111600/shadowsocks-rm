@@ -51,5 +51,6 @@ logpath = /var/log/shadowsocks.log
 maxretry = 5
 bantime = 43200
 ```
-> sudo services fail2ban restart
+> sudo service fail2ban restart
+
 > sudo fail2ban-client status shadowsocks
