@@ -1,6 +1,7 @@
 ## supervisor
 
 > sudo apt-get install supervisor
+
 > sudo nano /etc/supervisor/conf.d/shadowsocks.conf
 
 ````
