@@ -6,7 +6,7 @@
 
 ````
 [program:shadowsocks]
-command=python /root/shadowsocks/shadowsocks/servers.py
+command=python /root/shadowsocks-rm/shadowsocks/servers.py
 user=root
 autostart = true
 autoresart = true
