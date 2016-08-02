@@ -1,8 +1,8 @@
 ## Requirement
 
-1.Python
-1.cymysql
-1.mysql
+* Python
+* cymysql
+* mysql
 
 ## supervisor
 
