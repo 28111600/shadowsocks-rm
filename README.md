@@ -50,7 +50,8 @@ filter = shadowsocks
 port = 5000:10000
 logpath = /var/log/shadowsocks.log
 maxretry = 5
-bantime = 43200
+bantime = 864000
+findtime = 864000
 ```
 > sudo service fail2ban restart
 
