@@ -1,8 +1,20 @@
-## Requirement
+shadowsocks-rm-xd
+========
+### Info
+
+* Customized version
+
+## Requirements
 
 * Python
 * cymysql
 * mysql
+
+## Install
+* Import sql/*.sql to your MySQL Database.
+* Edit ../shadowsocks/config.py.
+* Run ../shadowsocks/servers.py.
+* Enjoy it.
 
 ## supervisor
 
