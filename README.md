@@ -1,3 +1,9 @@
+## Requirement
+
+1.Python
+1.cymysql
+1.mysql
+
 ## supervisor
 
 > sudo apt-get install supervisor
